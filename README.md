@@ -6,7 +6,7 @@ Birds, while beneficial to ecosystems, often pose a significant threat to agricu
 leading to considerable economic losses for farmers. Traditional bird deterrent methods, such
 as scarecrows and noise makers, frequently fail to maintain their effectiveness over time as
 birds adapt to them. This project addresses this challenge by deploying a smart, automated
-system capable of detecting and selectively deterring specific bird species that threaten crops.
+system capable of detecting and selectively deterring specific bird species that threaten crops.<br>
 # System Components
 1. YOLO Object Detection:
  - Utilizes YOLO (You Only Look Once) for real-time detection of birds using a webcam
@@ -31,15 +31,15 @@ detected harmful birds.
 efficiency.
 6. IoT Integration:
  - The ESP32 board manages the buzzer and handles communication with the Blynk server,
-ensuring reliable and low-latency responses.
+ensuring reliable and low-latency responses.<br>
 #  Software Requirements
-• Jupyter Notebook
-• Numpy (pip install numpy)
-• Speech Recognition
-• Google Text-to-Speech API
-• OpenCV 3.4+
-• YOLO training dataset
-• MS COCO dataset
+• Jupyter Notebook<br>
+• Numpy (pip install numpy)<br>
+• Speech Recognition<br>
+• Google Text-to-Speech API<br>
+• OpenCV 3.4+<br>
+• YOLO training dataset<br>
+• MS COCO dataset<br><br>
 # System Workflow
 Video Capture
 Object Detection and Classification
